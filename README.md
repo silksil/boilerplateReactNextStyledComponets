@@ -29,4 +29,4 @@ pages/about.js => /about
 - Add possibility to configure routing manually.
 - Install `dotenv` and include environment variables.
 - Configure deployment.
-- Including basic tests with Jest and Enzyme.
+- Including basic tests with `Jest` and `Enzyme`.
