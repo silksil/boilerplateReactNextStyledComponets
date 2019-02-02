@@ -1,5 +1,5 @@
 import App, { Container } from "next/app";
-import Wrapper from "../components/wrapper/Wrapper";
+import Wrapper from "../components/Wrapper/Wrapper";
 import { ApolloProvider } from "react-apollo";
 import withApollo from "../lib/withApollo";
 

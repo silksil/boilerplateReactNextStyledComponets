@@ -1,9 +1,32 @@
 # Boilerplate React Apollo Next
 
-Also includes the libraries:
+## How to use
+
+- Firstly, clone the repo.
+- Then run `npm install`
+- Configure your GraphQL endpoint in the config.js file.
+- After everything is finished, run `npm run dev`
+
+## Dependencies
 
 - **Jest and Enzyme** for testing purposes.
 - **React Transition Groups** for animating React components.
 - **Styled Components** to create styled React components.
 - **PropTypes** to check types in React.
 - **nprogress** a library that allows you to create a UI that shows the loading state of the page.
+
+## Routing
+
+Because of Next.js, You don't need to add routes for your pages. Every file in the pages uses the route as the are named
+
+```
+pages/index.js => /
+pages/about.js => /about
+```
+
+## To-do
+
+- Add possibility to configure routing.
+- Install `dotenv` and test environment variables.
+- Configure Deployment.
+- Including basic tests.
