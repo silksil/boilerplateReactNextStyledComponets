@@ -26,7 +26,7 @@ pages/about.js => /about
 
 ## To-do
 
-- Add possibility to configure routing.
-- Install `dotenv` and test environment variables.
-- Configure Deployment.
-- Including basic tests.
+- Add possibility to configure routing manually.
+- Install `dotenv` and include environment variables.
+- Configure deployment.
+- Including basic tests with Jest and Enzyme.
