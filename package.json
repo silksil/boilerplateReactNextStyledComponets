@@ -1,25 +1,23 @@
 {
-  "name": "boilerplate-react-apollo-next",
+  "name": "boilerplate-react-next-styled-components",
   "version": "1.0.0",
-  "description": "Boilerplate React, Next and Apollo",
+  "description": "Boilerplate React, Next and Styled Components ",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 7777",
     "start": "next start",
-    "test": "NODE_ENV=test jest --watch",
-    "test-win": "SET NODE_ENV=test&& jest --watch"
+    "test": "NODE_ENV=test jest --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-styled-components": "^1.7.1",
-    "next": "^7.0.0",
-    "next-with-apollo": "^3.1.3",
+    "next": "^9.0.3",
     "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
