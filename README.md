@@ -4,7 +4,6 @@
 
 - Firstly, clone the repo.
 - Then run `npm install`.
-- Configure your GraphQL endpointin the config.js file.
 - After everything is finished, run `npm run dev`.
 
 ## Dependencies
@@ -23,3 +22,5 @@ pages/index.js => /
 pages/about.js => /about
 ```
 
+## Theme
+A pre-configured theme is included in layout/themes.js with a dark and light mode. This can be adapted towards your own preferences.
