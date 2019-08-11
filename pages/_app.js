@@ -1,7 +1,5 @@
 import App, { Container } from "next/app";
-import Wrapper from "../components/Wrapper/Wrapper";
-import { ApolloProvider } from "react-apollo";
-import withApollo from "../lib/withApollo";
+import LayOut from "../layout/LayOut";
 
 class MyApp extends App {
   // Exposes page numbers.
@@ -16,19 +14,15 @@ class MyApp extends App {
     return { pageProps };
   }
   render() {
-    const { Component, apollo, pageProps } = this.props;
+    const { Component, pageProps } = this.props;
     return (
       <Container>
-        {/* Expose Apollo client to React
-        by wrapping the App in the Apollo Provider from the HOC*/}
-        <ApolloProvider client={apollo}>
-          <Wrapper>
-            <Component {...pageProps} />
-          </Wrapper>
-        </ApolloProvider>
+        <LayOut>
+          <Component {...pageProps} />
+        </LayOut>
       </Container>
     );
   }
 }
 
-export default withApollo(MyApp);
+export default MyApp;

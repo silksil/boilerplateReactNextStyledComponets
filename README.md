@@ -1,4 +1,4 @@
-# Boilerplate React Apollo Next
+# Boilerplate React Next
 
 ## How to use
 
@@ -8,9 +8,8 @@
 - After everything is finished, run `npm run dev`.
 
 ## Dependencies
-
-- **Jest and Enzyme** for testing purposes.
-- **React Transition Groups** for animating React components.
+- **React**
+- **Next**
 - **Styled Components** to create styled React components.
 - **PropTypes** to check types in React.
 - **nprogress** a library that allows you to create a UI that shows the loading state of the page.
@@ -24,9 +23,3 @@ pages/index.js => /
 pages/about.js => /about
 ```
 
-## To-do
-
-- Add possibility to configure routing manually.
-- Install `dotenv` and include environment variables.
-- Configure deployment.
-- Including basic tests with `Jest` and `Enzyme`.
