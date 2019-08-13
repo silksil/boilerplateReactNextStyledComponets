@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import Header from "./Header";
+import PageLoader from "./PageLoader";
 import Meta from "./Meta";
 import GlobalStyle from "./GlobalStyle";
 import themes from "./themes";
@@ -23,7 +23,7 @@ class Wrapper extends Component {
         <StyledPage>
           <GlobalStyle />
           <Meta />
-          <Header />
+          <PageLoader />
           <Inner>{this.props.children}</Inner>
         </StyledPage>
       </ThemeProvider>

@@ -12,6 +12,6 @@ Router.onRouteChangeError = () => {
   NProgress.done();
 };
 
-const Header = () => <div />;
+const PageLoader = () => <div />;
 
-export default Header;
+export default PageLoader;
